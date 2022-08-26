@@ -194,6 +194,8 @@ def show_venue(venue_id):
       "start_time": show.start_time,
       "past_shows_count": len(past_shows)
     })
+
+    #TODO: please guide me how to capture the upcoming and past shows based on the current codebase
     #data = list(filter(lambda d: d['id'] == venue_id, venue))
   return render_template('pages/show_venue.html', venue=venue)
 
